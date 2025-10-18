@@ -25,7 +25,7 @@ int main() {
         case 'x':
         case '*':
             result = num1 * num2;
-            cout << "Rezultat: " << result << endl;
+            cout << "Rezultat je: " << result << endl;
             break;
         case '/':
             if (num2 != 0) {
