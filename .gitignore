@@ -1,0 +1,10 @@
+# Build artefakti
+/build/
+/bin/
+*.o
+*.out
+*.exe
+
+# IDE
+.vscode/
+.idea/
