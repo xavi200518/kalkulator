@@ -1,10 +1,9 @@
-# Build artefakti
-/build/
-/bin/
+build/
 *.o
-*.out
+*.obj
 *.exe
-
-# IDE
+*.log
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
