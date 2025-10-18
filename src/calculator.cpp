@@ -7,6 +7,11 @@ int main() {
     double result;
 
     cout << "Vnesite prvo celo število: ";
+    	if (!cin) {
+    		cout << "Invalid input!" << endl;
+    	return 1;
+	}
+
     cin >> num1;
     cout << "Vnesite operator (+, -, x, /): ";
     cin >> oper;
