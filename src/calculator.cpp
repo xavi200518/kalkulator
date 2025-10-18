@@ -7,11 +7,6 @@ int main() {
     double result;
 
     cout << "Vnesite prvo celo število: ";
-    	if (!cin) {
-    		cout << "Neveljaven input!" << endl;
-    	return 1;
-	}
-
     cin >> num1;
     cout << "Vnesite operator (+, -, x, /): ";
     cin >> oper;
@@ -30,7 +25,7 @@ int main() {
         case 'x':
         case '*':
             result = num1 * num2;
-            cout << "Rezultat: " << result << endl;
+            cout << "Rezultat je: " << result << endl;
             break;
         case '/':
             if (num2 != 0) {
