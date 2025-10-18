@@ -8,7 +8,7 @@ int main() {
 
     cout << "Vnesite prvo celo število: ";
     	if (!cin) {
-    		cout << "Invalid input!" << endl;
+    		cout << "Neveljaven input!" << endl;
     	return 1;
 	}
 
